@@ -2,11 +2,12 @@
 <metadata>
   <groupId>com.gemsense</groupId>
   <artifactId>gemsdk</artifactId>
-  <version>0.2.15</version>
+  <version>0.2.16</version>
   <versioning>
     <versions>
       <version>0.0.11</version>
       <version>0.2.15</version>
+      <version>0.2.16</version>
     </versions>
     <lastUpdated>20150722113934</lastUpdated>
   </versioning>
