@@ -10,6 +10,10 @@ This repository contains source code of GemSDK samples for Android
 
 ![Basic Demo](http://developers.gemsense.cool/wp-content/themes/gemdev/images/repo/basicdemo2.png)
 
+- **Two gems Demo** ([apk](http://developers.gemsense.cool/documentation/android/bin/TwoGemsDemo.apk)):
+
+![Two gems Demo](http://developers.gemsense.cool/wp-content/uploads/2016/02/twogems.png)
+
 - **Gesture recognition demo** ([apk](http://developers.gemsense.cool/documentation/android/bin/GestureDemo.apk)):
 
 ![Gesture recognition demo](http://developers.gemsense.cool/wp-content/themes/gemdev/images/repo/gesture.png)
