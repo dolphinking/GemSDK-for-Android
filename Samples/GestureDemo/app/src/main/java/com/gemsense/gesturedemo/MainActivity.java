@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.drawing_view).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                gem.calibrate();
+                gem.calibrateOrigin();
             }
         });
 

@@ -50,8 +50,8 @@ public class MainActivity extends AppCompatActivity {
         cubeView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Set current orientation as origin
-                gem.calibrate();
+                // Use current azimuth(yaw) angles as an origin
+                gem.calibrateAzimuth();
             }
         });
 

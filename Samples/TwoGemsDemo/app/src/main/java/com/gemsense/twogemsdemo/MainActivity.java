@@ -49,8 +49,8 @@ public class MainActivity extends AppCompatActivity {
         cubeView1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Set current orientation as origin
-                if(gem1 != null) gem1.calibrate();
+                // Use current azimuth(yaw) angles as an origin
+                if(gem1 != null) gem1.calibrateAzimuth();
             }
         });
 
@@ -59,8 +59,8 @@ public class MainActivity extends AppCompatActivity {
         cubeView2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                //Set current orientation as origin
-                if(gem2 != null) gem2.calibrate();
+                // Use current azimuth(yaw) angles as an origin
+                if(gem2 != null) gem2.calibrateAzimuth();
             }
         });
     }
